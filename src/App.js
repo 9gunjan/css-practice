@@ -1,10 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+//import ToggleCircles from "./components/ToggleCircles";
+
+import OverlappingCircles from "./components/OverlappingCircles/OverlappingCircles";
+import './index.css';
 
 function App() {
   return (
-    <div className="App">
-      Hello world
+    <div className="app-container">
+      {/* <ToggleCircles /> */}
+      <OverlappingCircles numCircles={5}/>
     </div>
   );
 }
