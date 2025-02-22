@@ -26,6 +26,7 @@ const TrafficLight = () => {
           height: "230px",
           backgroundColor: "black",
           padding: "5px",
+          
         }}
       >
         {trafficDetails.map((signal, ind) => (
